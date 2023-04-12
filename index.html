@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left">
+            <svg id="svg" onclick="gitHub()" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+            <div id="vert-dash"></div>
+            <svg id="svg" onclick="linkedIn()" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+            </svg>
+            <div id="vert-line"></div>
+            <div id="copyright">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-c-square" viewBox="0 0 16 16">
+                    <path
+                        d="M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+                    <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                    <h4>2023</h4>
+            </div>
+            </svg>
+        </div>
+        <div id="middle">
+            <img id="me" onmouseenter="swapPic()" onmouseleave="swapBack()" src="./imgs/mervmd.png" alt="">
+            <h1 id="name">JOSEPH LeMAY III</h1>
+            <div id="employ">
+                <h2>Full Stack Developer</h2>
+                <p>Currently working as a fully remote teaching assitant for <br>Coding Dojo&trade;</p>
+                <p>Collaborating with a small team developing <br>Ecksoft Studios&trade;</p>
+            </div>
+        </div>
+        <div id="right">
+            <h1 id="project-link">PROJECTS</h1>
+            <h1 id="about-link">ABOUT</h1>
+            <h1 id="contact-link">CONTACT</h1>
+        </div>
+        <div class="projects">
+            <button id="close">Close</button>
+            <div id="project-list">
+                <h1>Coming Soon!</h1>
+                <!-- <div class="project-card">
+                    <img src="" alt="">
+                    <h2>Dojo Platform Clone</h2>
+                    <p>A full copy of the learning platform I used to learn programming, even included dark mode.</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>A full copy of the learning platform I used to learn programming, even included dark mode.</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="">
+                    <h2>Dojo Platform Clone</h2>
+                    <p>A full copy of the learning platform I used to learn programming, even included dark mode.</p>
+                </div> -->
+            </div>
+        </div>
+        <div id="about-me">
+            <h2>HELLO. <span class="faded-world">World.</span></h2>
+
+            <div id="quote">
+                <h1>
+                    "A few large steps is <span class="cross-out">exhausting</span> and <span class="cross-out">innaccurate</span>, but a million little steps is <span class="highlight">effortless</span>  and <span class="highlight">exact</span>"
+                </h1>
+                <h2>- Joseph LeMay</h2>
+            </div>
+            <div id="description">
+                <p>
+                    I started programming to satisfy a curiosity. I needed a sandbox to create and explore new ideas. Im
+                    fascinated with the idea of emergence through itteration, how simple repetition can result in amazingly complex systems.
+                    I couldn't resist the freedom of exploration and creativity that programming allows.
+                </p>
+                <p>
+                    I redirected my future, joined an online boot-camp, and became a certified full stack developer.  My
+                    new career allows me to explore new ideas constantly. I have the privilege of sharing my new found
+                    passion with students all over the world. Daily algos, full stack instruction, and project week
+                    every month on repeat for over a year. My kung fu is strong. I'm ready to join a team and take my career to the next level.
+                    I continue my self educataion daily, studying topics like machine learning, data visualization, data forecasting, and trend prediction.
+                </p>
+                <p>
+                    The inevitability of chaos becoming order, and from that something new
+                    emerging, something totally unrecognizable. We're like that too. I transformed from what I was so I
+                    could participate in the experiment of probing the nature of transformation. It seems as though it's time we create amazing things together.
+                </p>
+            </div>
+            <div id="skills">
+                <h1>Skills</h1>
+                <div class="hort-line"></div>
+                <img class="skill-svg" src="./svgs/CSS.svg" alt="">
+                <img class="skill-svg" src="./svgs/Bootstrap.svg" alt="">
+                <img class="skill-svg" src="./svgs/HTML.svg" alt="">
+                <img class="skill-svg" src="./svgs/JavaScript.svg" alt="">
+                <img class="skill-svg" src="./svgs/JQuery.svg" alt="">
+                <img class="skill-svg" src="./svgs/NodeJS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/MySQL-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Python-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Flask-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/RaspberryPi-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/AWS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Java-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Spring-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/NextJS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Unity-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Photoshop.svg" alt="">
+            </div>
+        </div>
+        <div id="contact">
+            <div id="contact-card">
+                <img id="phone" src="./imgs/phone.png" alt="">
+                <div id="phone-screen">
+                    <svg id="email-icon" onclick="sendEmail()" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                        fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                        <path
+                            d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+                    </svg>
+                    <svg id="discord" onclick="toDiscord()" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                        fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                        <path
+                            d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                    </svg>
+                    <svg id="linkedin" onclick="linkedIn()" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                        fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
